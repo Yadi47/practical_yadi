@@ -64,7 +64,25 @@
                     @endforeach
                 </ul>
             </li>
-
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-th"></i>
+                    <span>Category Test</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    @foreach(\App\Category::all() as $category)
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-circle-o"></i>
+                                <span>{{ $category->name }} ({{ $category->products()->count() }})</span>
+                            </a>
+                        </li>
+                    @endforeach
+                </ul>
+            </li>   
 
 
 
