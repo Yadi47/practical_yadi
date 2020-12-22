@@ -1,4 +1,4 @@
-## Membangun E-Commerce Menggunakan Laravel 5.7 
+# Membangun E-Commerce Menggunakan Laravel 5.7 , Dibuat oleh Yadi
 
 ### Fitur Fitur Yang Ada Dalam Aplikasi Ini Adalah :
 
